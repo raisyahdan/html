@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">GilaBola</a>
+      <div class="navbar-nav">
+        <ul>
+          <a href="index.html">Home</a>
+          <a href="about.html">Tentang Saya</a>
+          <a href="galery.html">Galery</a>
+        </ul>
+      </div>
+    </nav>
+    <section class="hora" id="about">
+      <main class="content">
+        <h1>Tentang Saya</h1>
+        <p>Nama: Raizal Zailani Syahdan</p>
+        <p>Hobi: bermain sepakbola</p>
+        <p>Makanan kesukaan: nasi goreng</p>
+        <p>Game kesukaan: PES 2021</p>
+        <p>Klub bola favorit: Real Madrid</p>
+      </main>
+    </section>
+    <div class="hora-form">
+      <p>Jika ada pertanyaan silahkan isi form di bawah</p>
+      <form action="contact.php" method="POST">
+        <fieldset>
+          <p>
+            <label>Name:</label>
+            <input type="text" name="name" placeholder="your name..." />
+          </p>
+          <p>
+            <label>Subject:</label>
+            <input type="text" name="subject" placeholder="subject..." />
+          </p>
+          <p>
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="your email..." />
+          </p>
+          <p>
+            <input type="submit" name="submit" value="Send" />
+          </p>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
